@@ -7,8 +7,9 @@ int main() {
     cin>>n;
     cout<<endl;
 
-    int a, b, c;
+    int a, b, c; //trijnieks
 
+    //parbaudijums
     for (int x=0; x<=n; x++) {
         a = x;
         for (int y=0; y<=n; y++){
