@@ -19,7 +19,7 @@ int main() {
                 c = z;
                 if (b<=c){
                 if (a*a + b*b == c*c) {
-                    cout<<a<<" "<<b<<" "<<c<<endl;
+                    cout<<"Nosacijumam a^2+b^2=c^2 atbilst skaitli: "<<a<<" "<<b<<" "<<c<<endl;
                         }
                     }
                 }
