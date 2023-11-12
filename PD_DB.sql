@@ -2,7 +2,7 @@ CREATE TABLE Owners(
   OwnerID INTEGER NOT NULL,
   Name TEXT,
   PRIMARY KEY (OwnerID)
- );
+);
   
 CREATE TABLE Pets(
   PetID INTEGER NOT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE Appointments(
   PRIMARY KEY (AppointmentID),
   FOREIGN KEY (PetID) REFERENCES Pets(PetID),
   FOREIGN KEY (AdminPersID) REFERENCES AdminPers(AdminPersID)
- );
+);
   
 CREATE TABLE Veterinarians(
   VeterinariansID INTEGER NOT NULL,
@@ -60,4 +60,4 @@ CREATE TABLE Services(
   PRIMARY KEY (ServiceID),
   FOREIGN KEY (AppointmentID) REFERENCES Appointments(AppointmentID),
   FOREIGN KEY (VeterinariansID) REFERENCES Veterinarians(VeterinariansID)
- );
+);
